@@ -60,7 +60,7 @@ jar {
     manifest {
         attributes(
                 'Class-Path': configurations.collect { it.getName() }.join(' '),
-                'Main-Class': 'com.flowapp.RefiningProject.Launcher'
+                'Main-Class': 'com.flowapp.NonNewtonian.Launcher'
         )
     }
 }
