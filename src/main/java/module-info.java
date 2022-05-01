@@ -1,4 +1,4 @@
-module NonNewtonian {
+module com.flowapp.NonNewtonian {
     requires org.jetbrains.annotations;
     requires javafx.fxml;
     requires javafx.controls;
